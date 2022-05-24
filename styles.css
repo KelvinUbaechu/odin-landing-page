@@ -38,6 +38,12 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 64px 128px;
+    gap: 32px;
+}
+
+.hero-container img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .hero-content {
