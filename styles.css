@@ -7,7 +7,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     display: flex;
     font-size: 24px;
     justify-content: space-between;
@@ -48,7 +48,7 @@ body {
 }
 
 .hero-content .main {
-    color: white;
+    color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
 }
@@ -62,7 +62,7 @@ body {
     background-color: #3882F6;
     border: 0;
     border-radius: 10px;
-    color: white;
+    color: #F9FAF8;
     padding: 8px 32px;
 }
 
