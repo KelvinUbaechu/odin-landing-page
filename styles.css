@@ -65,3 +65,38 @@ body {
     color: white;
     padding: 8px 32px;
 }
+
+.information-container {
+    margin: auto 128px;
+}
+
+.information-container .title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 36px;
+    text-align: center;
+}
+
+.information-container .info-content {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.info-image {
+    color: gray;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+
+.info-image img {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    max-height: 128px;
+    max-width: 128px;
+}
