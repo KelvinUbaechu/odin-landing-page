@@ -98,13 +98,15 @@ body {
     flex-direction: column;
     gap: 8px;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .info-image img {
     border: 4px solid #3882F6;
     border-radius: 10px;
-    max-height: 128px;
-    max-width: 128px;
+    max-height: 196px;
+    max-width: 196px;
 }
 
 .quotes-container {
