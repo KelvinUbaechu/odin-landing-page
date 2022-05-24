@@ -31,3 +31,37 @@ body {
     text-decoration: none;
     font-size: 18px;
 }
+
+.hero-container {
+    align-items: center;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 128px;
+}
+
+.hero-content {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-content .main {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-content .subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-content button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 32px;
+}
