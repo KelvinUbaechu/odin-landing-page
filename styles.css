@@ -2,4 +2,32 @@
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 128px;
+}
+
+.header .links {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.header .links li {
+    list-style-type: none;
+}
+
+.header .links a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
 }
